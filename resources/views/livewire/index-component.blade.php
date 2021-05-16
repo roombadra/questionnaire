@@ -145,7 +145,7 @@
               <div class="col-md-6">
                 <select wire:model='agent' class="form-control">
                   <option value="" selected hidden>Nom de l'agent</option>
-                  <option>Bamba Ibrahim</option>
+                  <option>Bamba lancine</option>
                   <option>Bayoko kadidja</option>
                   <option>Degbey kayeon</option>
                   <option>Diaby Maimouna</option>
