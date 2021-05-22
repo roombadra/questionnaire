@@ -29,11 +29,6 @@
                 <input wire:model='commune' class="form-control mt-3" type="text" placeholder="Commune">
                 @error('commune')<span style="color: red">{{$message}}</span>@enderror
               </div>
-              <br><br><br>
-              <div class="col-md-6">
-                <input wire:model='contact' class="form-control mt-3" type="text" placeholder="Contacts">
-                @error('contact')<span style="color: red">{{$message}}</span>@enderror
-              </div>
             </div>
             <br><br>
             <div class="row">
