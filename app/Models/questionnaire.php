@@ -14,7 +14,6 @@ class questionnaire extends Model
     						'nom',
     						'prenom',
     						'commune',
-    						'contact',
     						'q_1',
     						'q_2',
     						'q_3',

@@ -19,7 +19,6 @@ class CreateQuestionnairesTable extends Migration
             $table->string('nom');
             $table->string('prenom');
             $table->string('commune');
-            $table->string('contact')->nullable();
             $table->string('q_1');
             $table->float('q_2');
             $table->string('q_3');

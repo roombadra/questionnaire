@@ -13,7 +13,6 @@ class IndexComponent extends Component
 		   $agent,
 		   $prenom,
 		   $commune,
-		   $contact,
 		   $q_1,
 		   $q_2,
 		   $q_3,
@@ -32,7 +31,6 @@ class IndexComponent extends Component
 		'nom'=>'required|string',
 		'prenom'=>'required|string',
 		'commune'=>'required|string',
-		'contact'=>'required|string',
 		'q_1'=>'required|string',
 		'q_2'=>'required',
 		'q_3'=>'required|string',
@@ -71,7 +69,6 @@ class IndexComponent extends Component
 		$this->nom = null;
     	$this->prenom = null;
     	$this->commune = null;
-    	$this->contact = null;
     	$this->q_1 = null;
     	$this->q_2 = null;
     	$this->q_3 = null;

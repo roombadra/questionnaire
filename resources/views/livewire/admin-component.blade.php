@@ -36,7 +36,6 @@
       <th scope="col">Nom </th>
       <th scope="col">Prenom</th>
       <th scope="col">Commune</th>
-      <th scope="col">Contacte</th>
       <th scope="col">Q_1</th>
       <th scope="col">Q_2</th>
       <th scope="col">Q_3</th>
@@ -59,7 +58,6 @@
                   <td>{{$ask->nom}}</td>
                   <td>{{$ask->prenom}}</td>
                   <td>{{$ask->commune}}</td>
-                  <td>{{$ask->contact}}</td>
                   <td>{{$ask->q_1}}</td>
                   <td>{{$ask->q_2}}</td>
                   <td>{{$ask->q_3}}</td>
