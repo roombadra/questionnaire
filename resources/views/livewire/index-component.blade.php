@@ -26,8 +26,8 @@
                 <input wire:model='q_1' class="form-control" type="text" name="q_1">
                 @error('q_1')<span style="color: red">{{$message}}</span>@enderror
               </div>
-              <br><br><br>
               <div class="col-md-6">
+                <br><br><br>
                 <label for="q_2">Combien payez vous comme transport de votre position jusqu’à votre lieu de ravitaillement Aller/Retour ?</label><br>
                 <input wire:model='q_2' class="form-control" type="number" name="q_2">
                 @error('q_2')<span style="color: red">{{$message}}</span>@enderror
