@@ -4,7 +4,8 @@
     <button wire:click='showForm()' class="btn btn-primary" type="button">Ajouter</button>
     <div class="row ">
         <span class="col-md-12">
-            vous avez {{ $users }} clients!
+            vous avez {{ $users }} clients!<br>
+            {{ $user->agent }} a ajouté un nouveau client.
         </span>
     </div>
   @else
