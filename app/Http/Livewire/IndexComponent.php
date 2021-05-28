@@ -81,7 +81,7 @@ class IndexComponent extends Component
     public function render()
     {
     	$users = DB::table('questionnaires')->count();
-    	$user = DB::table('questionnaires')->get();
+    	$user = DB::table('questionnaires');
         return view('livewire.index-component',['users' => $users],['user' => $user]);
     }
 }
