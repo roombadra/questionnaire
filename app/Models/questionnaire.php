@@ -11,8 +11,6 @@ class questionnaire extends Model
 
      protected $fillable = [
                             'agent',
-    						'nom',
-    						'prenom',
     						'commune',
     						'q_1',
     						'q_2',

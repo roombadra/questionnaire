@@ -16,23 +16,12 @@
           <form class="form-group">
             <div class="row">
               <div class="col-md-6">
-                <input wire:model='nom' class="form-control mt" type="text" placeholder="Nom">
-                @error('nom')<span style="color: red">{{$message}}</span>@enderror
-              </div>
-              <br><br><br>
-              <div class="col-md-6 ">
-                <input wire:model='prenom' class="form-control" type="text" placeholder="Prenom">
-                @error('prenom')<span style="color: red">{{$message}}</span>@enderror
-              </div>
-              <br><br><br>
-              <div class="col-md-6">
+                <br>
+                <div class="col-md-6">
                 <input wire:model='commune' class="form-control mt-3" type="text" placeholder="Commune">
                 @error('commune')<span style="color: red">{{$message}}</span>@enderror
               </div>
-            </div>
-            <br><br>
-            <div class="row">
-              <div class="col-md-6">
+              <br><br>
                 <label for="q_1">Comment procédez-vous pour vos achats ?</label>
                 <input wire:model='q_1' class="form-control" type="text" name="q_1">
                 @error('q_1')<span style="color: red">{{$message}}</span>@enderror

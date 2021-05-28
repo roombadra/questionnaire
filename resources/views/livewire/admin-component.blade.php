@@ -33,8 +33,6 @@
     <tr>
       <th scope="col">#id</th>
       <th scope="col">Nom agent</th>
-      <th scope="col">Nom </th>
-      <th scope="col">Prenom</th>
       <th scope="col">Commune</th>
       <th scope="col">Q_1</th>
       <th scope="col">Q_2</th>
@@ -55,8 +53,6 @@
     <tr>
                   <th scope="row">{{$ask->id}}</th>
                   <td>{{$ask->agent}}</td>
-                  <td>{{$ask->nom}}</td>
-                  <td>{{$ask->prenom}}</td>
                   <td>{{$ask->commune}}</td>
                   <td>{{$ask->q_1}}</td>
                   <td>{{$ask->q_2}}</td>

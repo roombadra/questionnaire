@@ -9,9 +9,7 @@ use Illuminate\Support\Facades\DB;
 class IndexComponent extends Component
 {
 	public $show_form = false;
-	public $nom,
-		   $agent,
-		   $prenom,
+	public $agent,
 		   $commune,
 		   $q_1,
 		   $q_2,
@@ -28,8 +26,6 @@ class IndexComponent extends Component
 
 	protected $rules = [
 		'agent'=>'required|string',
-		'nom'=>'required|string',
-		'prenom'=>'required|string',
 		'commune'=>'required|string',
 		'q_1'=>'required|string',
 		'q_2'=>'required',
@@ -66,8 +62,6 @@ class IndexComponent extends Component
 	public function refreshInput()
 	{
 		$this->agent = null;
-		$this->nom = null;
-    	$this->prenom = null;
     	$this->commune = null;
     	$this->q_1 = null;
     	$this->q_2 = null;

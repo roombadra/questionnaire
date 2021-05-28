@@ -16,8 +16,6 @@ class CreateQuestionnairesTable extends Migration
         Schema::create('questionnaires', function (Blueprint $table) {
             $table->id();
             $table->string('agent');
-            $table->string('nom');
-            $table->string('prenom');
             $table->string('commune');
             $table->string('q_1');
             $table->float('q_2');
